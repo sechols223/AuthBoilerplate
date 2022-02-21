@@ -1,0 +1,26 @@
+{
+  "name": "authboilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for User-Authentication with MongoDB",
+  "main": "src/server/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sechols223/AuthBoilerplate.git"
+  },
+  "author": "Samuel Echols",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sechols223/AuthBoilerplate/issues"
+  },
+  "homepage": "https://github.com/sechols223/AuthBoilerplate#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.3",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
