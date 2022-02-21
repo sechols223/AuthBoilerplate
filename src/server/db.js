@@ -1,7 +1,6 @@
 const Mongoose = require('mongoose');
-const db = 'mongodb+srv://admin:admin@cluster0.7fvb2.mongodb.net' +
-    '/UserAuth?retryWrites=true&w=majority';
-
+require('dotenv').config();
+const db = process.env.MONGO_URI;
 const connectDB = async () => {
     await Mongoose.connect(db);
     console.log("Database connection established!")
